@@ -1,0 +1,36 @@
+site_name: Cordant Gadgetry
+site_url: https://cordantau.github.io/cordant-gadgetry
+repo_url: https://github.com/cordantau/cordant-gadgetry
+theme:
+  name: material
+  features:
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+plugins:
+  - awesome-pages
+  - git-revision-date-localized
+  - search
+  - section-index
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
