@@ -3,6 +3,8 @@ site_url: https://cordantau.github.io/cordant-gadgetry
 repo_url: https://github.com/cordantau/cordant-gadgetry
 theme:
   name: material
+  logo: assets/icon.png
+  favicon: assets/icon.png
   features:
     - content.code.copy
   palette:
@@ -14,6 +16,10 @@ theme:
       scheme: slate
       primary: indigo
       accent: indigo
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cordantau
 plugins:
   - awesome-pages
   - git-revision-date-localized
