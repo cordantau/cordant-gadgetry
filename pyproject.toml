@@ -1,0 +1,27 @@
+[project]
+name = "cordant-gadgetry"
+version = "0.1.0"
+description = "Cordant's public toolbox of scripts, snippets, and infra magic for the community."
+authors = [
+    {name = "Jared Dohrman",email = "jared.dohrman@cordant.au"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs (>=1.6.1,<2.0.0)",
+    "mkdocs-material (>=9.6.20,<10.0.0)",
+    "mkdocs-awesome-pages-plugin (>=2.10.1,<3.0.0)",
+    "mkdocs-section-index (>=0.3.10,<0.4.0)",
+    "pymdown-extensions (>=10.16.1,<11.0.0)",
+    "mkdocs-git-revision-date-localized-plugin (>=1.4.7,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+package-mode = false
