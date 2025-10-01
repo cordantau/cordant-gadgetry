@@ -8,6 +8,7 @@ build/
 dist/
 *.egg-info/
 .eggs/
+site/
 
 # Unit test / coverage reports
 htmlcov/
