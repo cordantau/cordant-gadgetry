@@ -8,16 +8,18 @@ theme:
   features:
     - content.code.copy
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
+    scheme: slate
+    primary: custom
+    accent: custom
+extra_css:
+  - styles/cordant.css
 extra:
+  repo_owner: cordantau
+  repo_name: cordant-gadgetry
+  repo_branch: main
   social:
+    - icon: fontawesome/solid/globe
+      link: https://www.cordant.au
     - icon: fontawesome/brands/github
       link: https://github.com/cordantau
 plugins:
