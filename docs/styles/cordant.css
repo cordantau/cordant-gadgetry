@@ -1,0 +1,27 @@
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color--transparent: hsl(14 89% 60%);
+  --md-accent-fg-color: hsl(14 89% 60%);
+  --md-default-bg-color: hsl(207 32% 12%);
+  --md-default-fg-color: hsl(240 5% 96%);
+  --md-footer-bg-color--dark: hsl(206 32% 10%);
+  --md-footer-bg-color: hsl(206 32% 10%);
+  --md-footer-fg-color--light: hsl(45 27% 71%);
+  --md-footer-fg-color--lighter: hsl(240 5% 96%);
+  --md-footer-fg-color: hsl(240 5% 96%);
+  --md-primary-fg-color--dark: hsl(184 17% 53%);
+  --md-primary-fg-color--light: hsl(184 17% 53%);
+  --md-primary-fg-color: hsl(206 32% 10%);
+  --md-typeset-a-color: hsl(24 100% 70%);
+}
+
+.md-typeset .md-button {
+  background-color: hsl(184 17% 53%);
+  border-color: hsl(184 17% 53%);
+  color: hsl(240 5% 96%);
+}
+
+.md-typeset .md-button:hover {
+  background-color: hsl(14 89% 60%);
+  border-color: hsl(14 89% 60%);
+  color: hsl(240 5% 96%);
+}
